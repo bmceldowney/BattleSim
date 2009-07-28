@@ -25,7 +25,7 @@ namespace BattleSim
 
         public CharacterBase(string name, RacialBase race)
         {
-            this.Health = 100;
+            this.Health = 110;
             this.Name = name;
             this.Race = race;
             this.InitializeRace(race);
