@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="337f2a6b-7dcd-476c-a014-f3916440ccc7" name="benmc@LUMEDX154 2009-07-27 16:47:09" runUser="GOOFY\benmc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ce2c6e4b-c764-40be-b176-e92bc2e3b22c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\TeamSystem\CardioPACS\Source\BattleSim\TestResults\benmc_LUMEDX154 2009-07-27 16_47_09">
+      <DeploymentItem filename="C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\bin\Debug\BattleSim.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LUMEDX154" outcome="Error" timestamp="2009-07-27T16:48:04.5624158-07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-07-27T16:47:09.8922903-07:00" queuing="2009-07-27T16:47:11.7516058-07:00" start="2009-07-27T16:47:11.9703488-07:00" finish="2009-07-27T16:48:04.5624158-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestAttack" storage="c:\teamsystem\cardiopacs\source\battlesim\battletests\bin\debug\battletests.dll" id="f050a9c6-daf1-2f4c-6604-8b19a588a406">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\bin\Debug\BattleTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BattleTests.HumanTests, BattleTests" name="TestAttack" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f050a9c6-daf1-2f4c-6604-8b19a588a406" executionId="34a1145e-6caf-453a-ac1f-f41b60cad09a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34a1145e-6caf-453a-ac1f-f41b60cad09a" testId="f050a9c6-daf1-2f4c-6604-8b19a588a406" testName="TestAttack" computerName="LUMEDX154" duration="00:00:52.4826955" startTime="2009-07-27T16:47:12.0797203-07:00" endTime="2009-07-27T16:48:04.5624158-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,7 @@
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\obj\Debug\ResolveAssemblyReference.cache
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\bin\Debug\BattleTests.dll
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\bin\Debug\BattleTests.pdb
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\bin\Debug\BattleSim.exe
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\bin\Debug\BattleSim.pdb
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\obj\Debug\BattleTests.dll
+C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\obj\Debug\BattleTests.pdb

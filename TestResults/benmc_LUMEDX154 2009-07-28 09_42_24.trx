@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9c3a5137-ac65-4684-bfa0-c94d52d49ae5" name="benmc@LUMEDX154 2009-07-28 09:42:24" runUser="GOOFY\benmc" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="ce2c6e4b-c764-40be-b176-e92bc2e3b22c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\TeamSystem\CardioPACS\Source\BattleSim\TestResults\benmc_LUMEDX154 2009-07-28 09_42_24">
+      <DeploymentItem filename="C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\bin\Debug\BattleSim.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-07-28T09:42:24.6221483-07:00" queuing="2009-07-28T09:42:27.5439298-07:00" start="2009-07-28T09:42:27.8876688-07:00" finish="2009-07-28T09:42:29.1376288-07:00" />
+  <TestDefinitions>
+    <UnitTest name="WriteCharacterXmlTest" storage="c:\teamsystem\cardiopacs\source\battlesim\battletests\bin\debug\battletests.dll" id="225bfa63-cb2e-3ef9-3317-c648b3e6e22d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d77cd983-b53d-46af-8518-a0786bcbe432" />
+      <TestMethod codeBase="C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\bin\Debug\BattleTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BattleTests.CharacterXmlWriterTest, BattleTests" name="WriteCharacterXmlTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="225bfa63-cb2e-3ef9-3317-c648b3e6e22d" executionId="d77cd983-b53d-46af-8518-a0786bcbe432" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d77cd983-b53d-46af-8518-a0786bcbe432" testId="225bfa63-cb2e-3ef9-3317-c648b3e6e22d" testName="WriteCharacterXmlTest" computerName="LUMEDX154" duration="00:00:00.2804640" startTime="2009-07-28T09:42:27.9970403-07:00" endTime="2009-07-28T09:42:29.0907553-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at BattleTests.CharacterXmlWriterTest.WriteCharacterXmlTest() in C:\TeamSystem\CardioPACS\Source\BattleSim\BattleTests\CharacterXmlWriterTest.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
