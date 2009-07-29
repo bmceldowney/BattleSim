@@ -8,11 +8,18 @@ using BattleSim.Utility;
 
 namespace BattleSim
 {
+    /// <summary>
+    /// Abstract class to hold racial characteristics loaded from xml
+    /// </summary>
     public abstract class RacialBase : Interfaces.ICharAttributes
     {
+        /// <summary>
+        /// Constructor.  Loads the racial characteristics from the specified XDocument
+        /// </summary>
+        /// <param name="raceXml"></param>
         public RacialBase(XDocument raceXml)
         {
-
+            //TODO: Implement loading
         }
 
         #region ICharAttributes Members

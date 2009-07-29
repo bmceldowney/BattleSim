@@ -8,14 +8,12 @@ namespace BattleSim
 {
     class Program
     {
+        /// <summary>
+        /// Main entry point
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            XmlFileWriter target = new XmlFileWriter();
-            Console.WriteLine("Creating Human...");
-            target.WriteRaceXml("Human", 20, 20, 20, 20, 20);
-            Console.WriteLine("Creating Dwarf...");
-            target.WriteRaceXml("Dwarf", 25, 30, 15, 20, 10);
-            Console.Read();
 
         }
     }
