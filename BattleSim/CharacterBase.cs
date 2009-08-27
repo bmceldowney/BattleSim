@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Reflection;
-using BattleSim.Utility;
+using BattleSim.Utilities;
 
 namespace BattleSim
 {
     /// <summary>
     /// This class holds all the properties and methods that are universal to characters in the game
     /// </summary>
-    public abstract class CharacterBase : Interfaces.ICharAttributes
+    public class CharacterBase : Interfaces.ICharAttributes
     {
         #region Properties
 
@@ -18,6 +18,11 @@ namespace BattleSim
         /// The character's race
         /// </summary>
         public RacialBase Race { get; private set; }
+
+        /// <summary>
+        /// The character's class
+        /// </summary>
+        public ClassBase Class { get; private set; }
 
         /// <summary>
         /// The character's proper name, e.g. "Sir Percival"

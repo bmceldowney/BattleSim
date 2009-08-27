@@ -1,8 +1,0 @@
-﻿<race>
-  <name>Dwarf</name>
-  <PhysicalStrength>25</PhysicalStrength>
-  <Hardiness>30</Hardiness>
-  <MentalStrength>15</MentalStrength>
-  <ManualDexterity>20</ManualDexterity>
-  <Swiftness>10</Swiftness>
-</race>

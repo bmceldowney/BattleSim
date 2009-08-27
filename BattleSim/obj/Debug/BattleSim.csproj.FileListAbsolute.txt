@@ -1,7 +1,0 @@
-C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\obj\Debug\ResolveAssemblyReference.cache
-C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\bin\Debug\BattleSim.exe
-C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\bin\Debug\BattleSim.pdb
-C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\obj\Debug\BattleSim.exe
-C:\TeamSystem\CardioPACS\Source\BattleSim\BattleSim\obj\Debug\BattleSim.pdb
-C:\Documents and Settings\benmc\My Documents\Visual Studio 2008\Projects\BattleSim\BattleSim\obj\Debug\BattleSim.exe
-C:\Documents and Settings\benmc\My Documents\Visual Studio 2008\Projects\BattleSim\BattleSim\obj\Debug\BattleSim.pdb
